@@ -1,0 +1,99 @@
+SOURCE: https://www.ministryoftesting.com/articles/the-art-of-the-bug-report
+
+
+The Art Of The Bug Report
+
+Read "The Art Of The Bug Report" by Anneliese Herbosa in Ministry of Testing's Testing Planet
+
+    Mar 29, 2019
+    7 min read
+
+Content in review
+Guiding Principles For Software Testers Writing Defects
+
+By Anneliese Herbosa
+
+Testers are storytellers. Coming from a communications background, one of the striking parallels I have made since working in quality assurance and software testing is that an important part of their role is to tell short stories through immediate product feedback. One powerful storytelling device they use to achieve this is: the bug report. In a constant effort to refine my storytelling skills by way of effective bug reporting, I have come to a few realizations in unpacking the parallels between the two.
+Taking Cues From Traditional Storytelling
+
+At its core, every story has a beginning for context, a middle where all the interesting stuff happens, and an ending that ties it all together. Stylistic nuances can be sprinkled throughout to help call attention to certain details, while other bits and pieces are added for extra colour.
+
+Similarly, when writing out bug reports, it is important to capture pertinent details and to tell the whole story. Just as the most basic stories have the 5 W’s (who/what/when/where/why), so too must a bug report contain its key elements.
+
+Here’s a loose guideline of what to include:
+
+    Title: Your title must be succinct yet descriptive (i.e., X feature is broken vs. X feature is not being triggered on first-time user experience)
+    Environment: Illustrate the story’s setting; take a 360 degree look (what browser/device version/OS were you on during the time of testing? What other notable details could help paint an accurate picture?)
+    Detailed description: Paint a vivid picture of the story, don’t leave any important facts out. That said, try not to include any extraneous details that could derail or distract the reader (more on this later)
+    Expectations vs. Reality: After readers start to uncover more information as they dig deeper and become more engrossed in the story they are reading, they start to draw conclusions in their head between what they were expecting to happen versus what actually happened.
+    Mind your language: When telling a story, consistency in the use of words, language and terminology is important. When writing a bug report, be mindful of your choice of words
+        Product terminology - is it a ‘square’ or a ‘button’ or a ‘call to action’? Know the difference, pick one, and be consistent throughout. Take cues from the original designs.
+        Tone - remember who your audience is and keep in mind what your goals are for writing out bug reports. What they aren’t: A place to voice your anger or frustration behind a particular product/feature or why something isn’t working as expected (yes, even if it’s Internet Explorer)
+    Supplementary multimedia: Any good story includes interesting things to spruce it up in a meaningful, useful way. Examples of media used:
+        Still screenshots - a picture paints a thousand words
+        Screen recordings - a video paints a couple thousand more
+        Console error logs - exposing JavaScript errors
+        Reference points - commentary that could be related issues you’ve run into in the past, in hopes of pointing the reader towards a solution or at least a similar approach
+
+As a cautionary tale, James Bach outlines common mistakes testers make in bug reports.
+Goldilocks Principle
+
+This principle, which is derived from the children’s story The Three Bears, suggests you consider margin extremes–too hot, too cold, just right. In the context of storytelling, this can be helpful when thinking about what details to add or omit. Every great storyteller recognizes the key elements of a story and conveys them in the best way possible in order to tell a compelling, well-rounded story. This means that they have creative license around what things they choose to augment, focus on, as well as what to exclude or simply touch on.
+
+There’s an art in striking the right balance between adding substance, without jeopardizing the key message of the story getting lost in translation along the way. When producing bug reports, the same is also true. If you fail to include enough information, you run the risk of depriving the problem solver potentially valuable information. However, if you provide too much information, you run the risk of steering the problem solver (in your case, the Developer or QA Engineer) down the wrong path by distracting them with superfluous information. Over time, you must learn to include just the right amount of information that will equip those deciphering the bugs with exactly what they need to troubleshoot effectively.
+
+On one end of the spectrum:
+
+    Over - if you supply too much information including extraneous miscellaneous details, this can distract or derail the reader from absorbing the key data points. This can prolong the time it takes to investigate and debug an issue.
+
+On the other end:
+
+    Under - if you supply too little information by failing to include the key information, this can make it difficult for the developer to put the pieces together to arrive at the root cause and potential solutions. This too can prolong the time it takes to investigate and debug an issue because this would involve more time spent gathering more information after the fact when it could have been gathered and presented sooner.
+
+Determining a suitable amount of information and details to include can be daunting. After you have written out your bug report, ask yourself the following questions:
+
+    Does my bug report tell the whole story? If someone who wasn’t me were to read it, would they be able to get a good (holistic, full) sense of the entire story I am trying to portray?
+        If it does, leave as is
+        If it doesn’t, figure out what’s missing and fill in those blanks
+    Is every detail included absolutely necessary? Everything is intentional and plays a significant part in conveying the story. Keep this in mind when stringing together bug reports.
+        If they are, leave as is
+        If they aren’t, omit the extra stuff
+    Not entirely sure but have a hunch? Make note of it! If you are uncertain of whether a detail may or may not be relevant, it doesn’t hurt to at least state or acknowledge that so the reader is aware. It is up to them whether they choose to indulge that data from their troubleshooting process and issue investigation.
+
+Know Your Audience
+
+Storytelling is a two-way street between the one telling the story and the one(s) listening. Being mindful of who your audience is and anticipating what they want to hear can set you up to tell a very compelling story that will delight your audience. Engaged audience members often go out of their way to probe and ask questions in order to better understand the story. If not provided with sufficient information, they will be left to form assumptions which could then lead to confused audience members.
+
+When writing a bug report, always remember that the end-reader probably isn’t going to be you (unless you happen to be the only QA Engineer on the team in which case you may be). Chances are, a developer or various/a team of developers will be the ones receiving and reading these tickets. Therefore, you need to know what they need to know by including just the right amount of details (see above).
+
+    What is the key issue?
+    What are all the pertinent details surrounding the issue? (relevant information, or details that could be related which may help in further investigations)
+    Where else is this happening? (specifying environment or scenarios, being as specific as possible; the opposite could also help - where is this not happening?)
+    What is the expected result? Sometimes it isn’t enough to simply state the problem. For context, outlining the expected result can help paint a fuller, clearer picture to help the developer understand how something is intended to behave.
+
+The more you can anticipate, the less ambiguity and back-and-forth there will be.
+
+And they lived happily ever after… The end.
+
+When the reader reaches the ending of a story, they are left to think and feel a certain way that wasn’t true at the start. There is an opportunity for the reader to be left feeling either confused and distracted, or informed, educated and empowered. What was the moral of your story? What exactly did you want the reader to take away from it all? How were you hoping they would react? These are all questions to ponder when wrapping up the bug reporting process. Keeping the KISS (keep it simple, stupid) principle in mind, remember that less is more when trying to convey your key message as concisely as possible.
+
+As you conclude the bug reporting process, here are a few final criteria to consider in order to maximize the substance of your report:
+
+    Moral of the story -  Ensure that the reader can easily follow and immediately recognize the issue at hand
+    Context is queen - Provide the reader with adequate information through rich content in whatever form will help you get your point across
+    Reader’s reaction - Anticipate the required next steps needed to resolve the issue
+
+Testers are tasked to tell many stories across many mediums to many different audience members. There truly is an art behind crafting effective bug reports - ones that get read, absorbed, understood, and acted upon. Use these guidelines the next time you are writing a bug report.
+
+How have your bug reports evolved over time? Share your success stories, best practices, war stories, or examples of poorly written bug reports with peers on The Club.
+References
+
+    How to Report Bugs Effectively
+    Rapid Software Testing Guide to Making Good Bug Reports
+    You’re Not Managing a Team of Software Engineers, You’re Managing a Team of Writers
+    Ministry of Testing Masterclass: Storytelling & Narratology for Software Testers
+    User Stories
+
+Author Bio
+
+Anneliese Herbosa is a quality and continuous improvement advocate hailing from Vancouver, Canada. She currently works at a digital creative agency as a QA tester. When her hands aren't glued to the keyboard or multitude of testing devices, they're likely holding onto a pen or drumsticks. She's @HERbosa on Twitter.

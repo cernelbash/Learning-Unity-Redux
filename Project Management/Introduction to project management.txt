@@ -193,4 +193,41 @@ PREPARING TO PUBLISH
 
 ***************************************************************************
 
+Post-production
 
+- primarily deals with publishing
+- Your project plan should account for...
+    - Quality Assurance (QA) Testing
+    - Content Editing and revision
+    - bug fixing
+    - final polishing and deliverables   
+
+
+***************************************************************************
+Quality Assurance
+
+Test Scripts
+- series of steps for a tester to follow and record their observations
+- Usually created before testing starts
+- Used to evaluate the product against project requirements and use cases
+- Test assumptions about the user experience 
+
+Bug Report Tracking
+- Tools used to track vary, Jira and Github are popular as well as spreadsheets
+- A typical bug report includes
+    - Title/Brief Summary: Title for the bug
+    - Identified Frequency: How often does the bug occur
+    - Reproduction Steps: Precise steps on how to reproduce the bug
+        - Should be detailed enough for a dev to do so with no other info
+    - Detailed description: Expanded summary of the bug and its impact on user experience
+    - Any other observations: Thoughts on what could be causing the bug.
+
+Check out "The Art Of The Bug Report"
+Link: https://www.ministryoftesting.com/articles/the-art-of-the-bug-report
+Also copied into a file in the repo for posterity
+
+***************************************************************************
+***************************************************************************
+***************************************************************************
+
+RELEASING YOUR PROJECT
