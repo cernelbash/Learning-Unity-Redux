@@ -1,4 +1,4 @@
-#ignore the following filess andd folders
+#ignore the following files andd folders
 .gitignore
 Library/
 Logs/
@@ -7,3 +7,4 @@ Prototype 1.sln
 UserSettings/
 Temp/
 .vscode/
+Prototype 1B/

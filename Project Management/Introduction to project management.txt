@@ -3,7 +3,7 @@
 GAME DEVELOPMENT STAGES
 
 Pre-production
-    Planning ()
+    Planning
     Prototyping
     Pipeline Setup
     Initial Designs
@@ -31,7 +31,7 @@ DESIGN DOCUMENT
     Bible of Design specifications
     
     - Identify purpose, audience and project goal
-    - ID project steps with a project Planning
+    - ID project steps with a project plan
         - Project Timeline with deliverables and due Updates
     - Assigns roles and task priorities
 
