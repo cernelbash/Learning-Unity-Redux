@@ -1,9 +1,7 @@
 # Learning-Unity-Redux
-EDIT: I'm coming back after another year of break.
-My laptop's wifi drivers stopped working and my work commute changed; I usually do unity on the train ride to my job.
-And once again...
+Work on branch ThirdStory has begun.
+Testing commits to branch and merging back into main.
 
-Finally managed to get back into things.
 Starting from scratch on the Junior Programmer Pathway from Unity's official Unity Learning portal
 https://learn.unity.com/mission/programming-basics?pathwayId=5f7e17e1edbc2a5ec21a20af
 
